@@ -1,7 +1,7 @@
 ---
-layout: aboutme
+layout: page
 title: Liên Hệ
-permalink: /thong-tin-lien-he/
+permalink: /Lien-he/
 ---    
 <div>
     <h2>
