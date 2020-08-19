@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: aboutme
 title: Liên Hệ
 permalink: /thong-tin-lien-he/
 ---    
