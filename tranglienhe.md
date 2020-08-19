@@ -10,6 +10,6 @@ permalink: /thong-tin-lien-he/
     <div>
         <h5>Liên hệ với tôi</h5>
         <p>Bạn hãy gửi email đến  lamhongkhoa2@gmail.com hoặc vào trang </p>
-        <a target="_blank" href="https://lamhongkhanh.blogspot.com">Xuân Thu Lab</a>
+        <a target="_blank" href="https://lamhongkhanh.blogspot.com"> Lâm Hồng Khanh</a>
     </div>
 </div>   
