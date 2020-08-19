@@ -1,7 +1,7 @@
 ---
 layout: post
 title: bai viet 1
-categories: Truyện_hay
+tags: Truyenhay
 ---
 #Thử nghiệm
 đang làm thử
