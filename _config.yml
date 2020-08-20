@@ -21,33 +21,6 @@ navbar-links:
   Liên hệ: "Lien-he"
 
 
-<head>
-    <style type="text/css">
-        nav{
-            background-color:#47bdec;
-        }
-        nav a{
-            display:inline-block;
-            padding:10px;
-            font-size:20px;
-            color:white;
-            text-decoration:none;
-        }
-        nav a:hover{
-            background-color:#333;
-        }
-    </style>
-</head>
-<body>
-    <nav>
-        <a href="http://webcoban.vn/html/default.html">HTML</a>
-        <a href="http://webcoban.vn/css/default.html">CSS</a>
-        <a href="http://webcoban.vn/javascript/default.html">JavaScript</a>
-        <a href="http://webcoban.vn/mysql/default.html">MySQL</a>
-        <a href="http://webcoban.vn/php/default.html">PHP</a>
-    </nav>
-</body>
-
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
@@ -60,7 +33,6 @@ round-avatar: true
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 #title-img: assets/img/cuoc-song-chan-thuc7-m.jpg
-
 
 # --- Footer options --- #
 
