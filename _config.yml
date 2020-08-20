@@ -12,7 +12,7 @@ author: Some Person
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Liên hệ: "Lien_he"
+  Liên hệ: "Lien-he"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
