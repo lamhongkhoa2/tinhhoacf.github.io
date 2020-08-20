@@ -12,12 +12,12 @@ author: Lam Hong Khanh
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Toán học: "Toan-hoc"
-  Môn học khác: "mon-hoc-khac"
+  Toán học: "tags/#toanhoc"
+  Môn học khác: "tags/#monhockhac"
   Tri thức sống:
-    - Danh ngôn: "danh-ngon"
+    - Danh ngôn: "tags/#danhngon"
     - Truyện hay: "tags/#truyenhay"
-  Thư giãn: "thu-gian"
+  Thư giãn: "tags/#thugian"
   Liên hệ: "Lien-he"
 
 
