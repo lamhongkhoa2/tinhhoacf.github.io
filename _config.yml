@@ -4,7 +4,7 @@
 title: TRI THỨC SỐNG
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Tri thức hay cho cuộc sống
 
 # Your name to show in the footer
 author: Lam Hong Khanh
@@ -31,7 +31,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: assets/img/cuoc-song-chan-thuc7-m.jpg
+#title-img: assets/img/cuoc-song-chan-thuc7-m.jpg
 
 
 # --- Footer options --- #
@@ -103,7 +103,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-#navbar-img: "/assets/img/bgimage.png"
+navbar-img: "assets/img/cuoc-song-chan-thuc7-m.jpg"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
