@@ -40,8 +40,8 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "lamhongkhoa2@gmail.com"
-  facebook: "https://www.facebook.com/khanh.lamhong.96"
+  email: lamhongkhoa2
+  facebook: khanh.lamhong.96
   github: daattali
   twitter: daattali
   rss: false
