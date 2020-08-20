@@ -7,7 +7,7 @@ title: TRI THỨC SỐNG
 description: A virtual proof that I'm awesome
 
 # Your name to show in the footer
-author: Some Person
+author: Lam Hong Khanh
 
 # --- List of links in the navigation bar --- #
 
@@ -31,7 +31,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: assets/img/cuoc-song-chan-thuc7-m.jpg
 
 
 # --- Footer options --- #
@@ -40,7 +40,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: lamhongkhoa2
+  email: "lamhongkhoa2@gmail.com"
   facebook: khanh.lamhong.96
   github: daattali
   twitter: daattali
