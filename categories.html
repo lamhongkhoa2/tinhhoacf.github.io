@@ -3,26 +3,29 @@ layout: page
 title: Categories
 ---
 
-<div class="tags-expo">
-  <div class="tags-expo-list">
-    {% for tag in site.categories %}
-    <a href="# { {  tag[0] | slugify }}" class="post-tag"> { {  tag[0] }}</a>
-    {% endfor %}
-  </div>
-  <hr/>
-  <div class="tags-expo-section">
-    {% for tag in site.categories %}
-    <h2 id=" { {  tag[0] | slugify }}"> { {  tag[0] }}</h2>
-    <ul class="tags-expo-posts">
-      {% for post in tag[1] %}
-        <a class="post-title" href=" { {  site.baseurl }} { {  post.url }}">
-      <li>
-         { {  post.title }} <br/>
-      <small class="post-date"> { {  post.date | date_to_string }}</small>
-      </li>
-      </a>
-      {% endfor %}
+<div class="col-sm-3 col-xs-6">
+    <ul class="nav nav-tabs-vertical">
+      {% assign categories_list = site.categories %}
+      {% if categories_list.first[0] == null %}
+        {% for category in categories_list %}
+            <li>
+                <a href="{{ site.BASE_PATH }}/{{ site.categories_path }}#{{ category | replace:' ','-' }}-ref" data-toggle="tab">
+                  {{ category | capitalize }} <span class="badge pull-right">({{ site.categories[category].size }} post)</span>
+               </a>
+            </li>
+        {% endfor %}
+      {% else %}
+        {% for category in categories_list %}
+            <li>
+                <a href="{{ site.BASE_PATH }}/{{ site.categories_path }}#{{ category[0] | replace:' ','-' }}-ref" data-toggle="tab">
+                    {{ category[0] | capitalize }} <span class="badge pull-right">({{ category[1].size }} post)</span>
+                </a>
+            </li>
+        {% endfor %}
+      {% endif %}
+      {% assign categories_list = nil %}
     </ul>
-    {% endfor %}
-  </div>
 </div>
+
+
+<div class="clearfix"></div>
