@@ -16,7 +16,7 @@ navbar-links:
   Môn học khác: "mon-hoc-khac"
   Tri thức sống:
     - Danh ngôn: "danh-ngon"
-    - Truyện hay: https://tinhhoa.cf/tags/#truyenhay
+    - Truyện hay: <a href="https://tinhhoa.cf/tags/#truyenhay">HTML</a>
   Thư giãn: "thu-gian"
   Liên hệ: "Lien-he"
 
