@@ -16,12 +16,11 @@ navbar-links:
   Môn học khác: "mon-hoc-khac"
   Tri thức sống:
     - Danh ngôn: "danh-ngon"
-    - Truyện hay: "truyen-hay"
+    - Truyện hay: https://tinhhoa.cf/tags/#truyenhay
   Thư giãn: "thu-gian"
   Liên hệ: "Lien-he"
 
-<!DOCTYPE html>
-<html>
+
 <head>
     <style type="text/css">
         nav{
@@ -48,7 +47,7 @@ navbar-links:
         <a href="http://webcoban.vn/php/default.html">PHP</a>
     </nav>
 </body>
-</html>
+
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
