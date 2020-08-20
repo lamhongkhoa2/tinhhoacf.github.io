@@ -12,11 +12,13 @@ author: Some Person
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Toán học: "Toan-hoc"
+  Môn học khác: "mon-hoc-khac"
+  Tri thức sống:
+    - Danh ngôn: "danh-ngon"
+    - Truyện hay: "truyen-hay"
+  Thư giãn: "thu-gian"
   Liên hệ: "Lien-he"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -38,11 +40,11 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
+  email: "lamhongkhoa2@gmail.com"
+  facebook: lhk
+  github: 
   twitter: daattali
-  rss: true
+  rss: false
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -67,12 +69,12 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  linkedin: true
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "lamhongkhanh.blogspot.com"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
@@ -225,4 +227,4 @@ plugins:
 # 2fc73a3a967e97599c9763d05e564189
 
 
-theme: jekyll-theme-time-machine
+theme: LamHongKhanh
