@@ -1,6 +1,15 @@
 ---
 layout: home
-title: TINH HOA CUỘC SỐNG
-subtitle: This is where I will tell my friends way too much about me
+title: TINH HOA <br> CUỘC SỐNG
+subtitle: Mục tiêu của đời người là hoàn thiện bản thân mình
 ---
-
+<div class="card m-4">
+    <div class="card-header">
+        Các bài viết
+    </div>
+    <div class="list-group list-group-flush">
+        {% for post in site.posts %} 
+            <a class="list-group-item list-group-item-action" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% endfor %}
+    </div>
+</div>
