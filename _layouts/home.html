@@ -85,12 +85,11 @@ layout: page
   </li>
   {% endif %}
 </ul>
-
-
+{% endif %}
 
 <div class="card m-4">
     <div class="card-header">
-        Các bài viết
+        CÁC BÀI VIẾT
     </div>
     <div class="list-group list-group-flush">
         {% for post in site.posts %} 
@@ -98,4 +97,3 @@ layout: page
         {% endfor %}
     </div>
 </div>
-{% endif %}
