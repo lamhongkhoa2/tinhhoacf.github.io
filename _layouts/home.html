@@ -86,3 +86,15 @@ layout: page
   {% endif %}
 </ul>
 {% endif %}
+
+
+<div class="card m-4">
+    <div class="card-header">
+        Các bài viết
+    </div>
+    <div class="list-group list-group-flush">
+        {% for post in site.posts %} 
+            <a class="list-group-item list-group-item-action" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% endfor %}
+    </div>
+</div>
